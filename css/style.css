@@ -73,12 +73,12 @@ main > div{
 
 .blueColumn{
     background-color: #1e90ff;
-    width: 58%;
+    flex-grow: 6;
 }
 
 .pinkColumn{
     background-color: #ffc0cb;
-    width: 42%;
+    flex-grow: 4;
 }
 
 .bgGrey{
@@ -106,12 +106,12 @@ footer{
 
 .salmonColumn{
     background-color: #f08080;
-    width: 30%;
+    flex-grow: 3;
 }
 
 .aquamarineColumn{
     background-color: #20b2aa;
-    width: 70%;
+    flex-grow: 7;
 }
 
 .insideAquamarineColumn{
