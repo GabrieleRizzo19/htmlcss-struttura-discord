@@ -19,18 +19,12 @@ header{
     border: 1px dashed black;
 }
 
-header div:first-child{
+header div:first-child, nav *{
     padding: 1em 0;
 }
 
 nav{
-    max-width: 1200px;
     background-color: #daa520;
-    margin: 0 auto;
-}
-
-nav *{
-    padding: 1em 0;
 }
 
 #logoHeader{
@@ -74,9 +68,7 @@ main > div{
 }
 
 .pinkBlueBox{
-    max-width: 1200px;
     min-height: 500px;
-    margin: 0 auto;
 }
 
 .blueColumn{
@@ -99,9 +91,7 @@ main > div:last-child{
 
 .greenBox{
     background-color: green;
-    max-width: 1200px;
     min-height: 900px;
-    margin: 0 auto;
 }
 
 footer{
@@ -112,8 +102,6 @@ footer{
 
 .salmonAquamarineBox{
     min-height: 600px;
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
 .salmonColumn{
@@ -131,9 +119,7 @@ footer{
     border: 1px dashed white;
 }
 
-footer > div:last-child{
-    max-width: 1200px;
-    margin: 0 auto;
+#lastPartFooter{
     margin-top: 3em;
     background-color: #7fffd4;
     align-items: center;
@@ -149,3 +135,10 @@ footer > div:last-child{
     padding: 0.5em 0;
 }
 
+.marginzeroauto{
+    margin: 0 auto;
+}
+
+.mw1200{
+    max-width: 1200px;
+}
