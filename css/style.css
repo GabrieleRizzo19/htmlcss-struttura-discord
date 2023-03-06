@@ -58,12 +58,13 @@ a{
 header section{
     background-color: darkblue;
     min-height: 500px;
+    padding: 2em 0;
 }
 
-.boxViolet{
+.violetBox{
     background-color: violet;
     min-height: 400px;
-    width: 46%;
+    max-width: 900px;
     margin: 2em auto;
 }
 
@@ -103,4 +104,48 @@ main > div:last-child{
     margin: 0 auto;
 }
 
+footer{
+    min-height: 750px;
+    background-color: #23272a;
+    padding-top: 1em;
 }
+
+.salmonAquamarineBox{
+    min-height: 600px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.salmonColumn{
+    background-color: #f08080;
+    width: 30%;
+}
+
+.aquamarineColumn{
+    background-color: #20b2aa;
+    width: 70%;
+}
+
+.insideAquamarineColumn{
+    width: 25%;
+    border: 1px dashed white;
+}
+
+footer > div:last-child{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 3em;
+    background-color: #7fffd4;
+    align-items: center;
+    min-height: 80px;
+}
+
+#logoFooter, #buttonFooter{
+    background-color: #ffb6c1;
+    min-height: 38px;
+}
+
+#logoFooter{
+    padding: 0.5em 0;
+}
+
