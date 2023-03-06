@@ -4,3 +4,65 @@
     padding: 0;
 }
 
+header{
+    background-color: #add8e6;
+    min-height: 500px;
+}
+
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dashedBorder{
+    border: 1px dashed black;
+}
+
+header div:first-child{
+    padding: 1em 0;
+}
+
+nav{
+    max-width: 1200px;
+    background-color: #daa520;
+    margin: 0 auto;
+}
+
+nav *{
+    padding: 1em 0;
+}
+
+#logoHeader{
+    flex-grow: 1;
+    padding-left: 5px;
+}
+
+#linkHeader{
+    text-align: center;
+    flex-grow: 3;
+    text-decoration: none;
+}
+
+#loginHeader{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+header section{
+    background-color: darkblue;
+    min-height: 500px;
+}
+
+.boxViolet{
+    background-color: violet;
+    min-height: 400px;
+    width: 47%;
+    margin: 2em auto;
+}
