@@ -63,6 +63,44 @@ header section{
 .boxViolet{
     background-color: violet;
     min-height: 400px;
-    width: 47%;
+    width: 46%;
     margin: 2em auto;
+}
+
+main > div{
+    height: 600px;
+    padding: 50px 0;
+}
+
+.pinkBlueBox{
+    max-width: 1200px;
+    min-height: 500px;
+    margin: 0 auto;
+}
+
+.blueColumn{
+    background-color: #1e90ff;
+    width: 58%;
+}
+
+.pinkColumn{
+    background-color: #ffc0cb;
+    width: 42%;
+}
+
+.bgGrey{
+    background-color: #d3d3d3;
+}
+
+main > div:last-child{
+    min-height: 1000px;
+}
+
+.greenBox{
+    background-color: green;
+    max-width: 1200px;
+    min-height: 900px;
+    margin: 0 auto;
+}
+
 }
