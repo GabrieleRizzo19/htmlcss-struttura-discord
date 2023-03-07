@@ -115,7 +115,7 @@ footer{
 }
 
 .insideAquamarineColumn{
-    width: 25%;
+    flex-grow: 1;
     border: 1px dashed white;
 }
 
