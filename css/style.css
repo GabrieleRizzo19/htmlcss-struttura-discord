@@ -133,11 +133,9 @@ footer{
 #logoFooter, #buttonFooter{
     background-color: #ffb6c1;
     min-height: 38px;
-}
-
-#logoFooter{
     padding: 0.5em 0;
 }
+
 
 .marginzeroauto{
     margin: 0 auto;
