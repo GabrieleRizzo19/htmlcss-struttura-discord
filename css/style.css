@@ -119,8 +119,12 @@ footer{
     border: 1px dashed white;
 }
 
-#lastPartFooter{
-    margin-top: 3em;
+#footerTop{
+    margin-bottom: 2em;
+}
+
+#footerBottom{
+    margin-top: 2em;
     background-color: #7fffd4;
     align-items: center;
     min-height: 80px;
